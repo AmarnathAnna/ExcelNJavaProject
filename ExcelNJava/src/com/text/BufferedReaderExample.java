@@ -12,7 +12,9 @@ public class BufferedReaderExample {
 	         String sCurrentLine;
 	         while ((sCurrentLine = br.readLine()) != null) {
 					System.out.println(sCurrentLine);
+			 
 				} 
+		      System.out.println("Test");
 	      } catch (IOException e) {
 	         e.printStackTrace();
 	      } 
