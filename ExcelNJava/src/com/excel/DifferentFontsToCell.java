@@ -40,6 +40,7 @@ public class DifferentFontsToCell {
       cell.setCellStyle(style);
       
       FileOutputStream out = new FileOutputStream(new File("C:/Amar/JSP/excel/fontstyle.xlsx"));
+      System.out.println("test");
       workbook.write(out);
       out.close();
       
