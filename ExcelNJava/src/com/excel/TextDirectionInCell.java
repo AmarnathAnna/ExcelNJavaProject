@@ -68,6 +68,8 @@ public class TextDirectionInCell {
       workbook.write(out);
       out.close();
       
+      System.out.println("testing the autodeploy");
+      
       System.out.println("textdirection.xlsx written successfully");
    }
 }
